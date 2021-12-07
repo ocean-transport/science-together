@@ -57,6 +57,9 @@ There are a variety of workflow 'engines' available. Let's try to outline our re
 #### Feature wishlist
 - Reproducible Processing Pipeline.
 - Compute only when necessary.
+Basically we need two types of triggers that lead to a recomputation of any target:
+  - Data based triggers: E.g. if a target store is not available (or doesnt fulfil some quality control) it needs to be regenerated.
+  - If anything in the code that produces the target store is changed it needs to get reproduced. Ideally this would detect any imported modules, and check these for changes too. If that is not possible we need to somehow prohibit imports...
 - 'CI for data' - run automated checks on the data produced.
 - Easily reproduce an older stage of the pipeline, e.g. for debugging.
 - Agnostic to the choice of cloud storage/compute used.
