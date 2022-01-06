@@ -21,7 +21,23 @@ The *Code/Data Structure* sets rules on how data needed for the particular proje
 
 ## Work Structure
 
-TBW
+As an initial experiment we will try to organize our work around fixed work intervals (often called 'sprints'). 
+
+A sprint will last 2 weeks and start and end with a synchronous meeting.
+
+- Sprint Planning:
+  - Review/adjust tasks
+  - Prioritize tasks for this sprint
+  - Distribute tasks amongs members (where possible assign pairs to a task).
+- Sprint Review:
+  - Demo of progress/findings/failures to all members.
+  - Feedback on how the work structure. How is it going? How could we improve.
+
+Within each sprint, members are expected to commit a certain amount of their weekly hours to the sprint, but are free to organize when. This leaves freedom to accomodate different work styles (e.g. an hour every other day vs a full day hack).
+
+### Open Questions
+
+- How often/little do we have to check in (or stand up) to keep things flowing nicely, but not bug our days down even more with meetings? 
 
 ## Code/Data Structure
 
